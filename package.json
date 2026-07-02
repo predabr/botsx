@@ -1,0 +1,25 @@
+{
+  "name": "gamewallpro-discord-bot",
+  "version": "0.1.0",
+  "description": "Discord bot with AI providers, moderation, utility and fun commands.",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@11.7.0",
+  "engines": {
+    "node": ">=22.12.0 <25.0.0"
+  },
+  "scripts": {
+    "check": "node scripts/check.js",
+    "deploy": "node src/deploy-commands.js",
+    "start": "node src/index.js",
+    "start:with-deploy": "node src/deploy-commands.js && node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "0.19.2",
+    "discord.js": "14.26.4",
+    "dotenv": "16.6.1",
+    "ffmpeg-static": "5.3.0",
+    "play-dl": "1.9.7"
+  }
+}
