@@ -4,7 +4,7 @@
   "description": "Discord bot with AI providers, moderation, utility and fun commands.",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@11.7.0",
+  "packageManager": "pnpm@9.15.9",
   "engines": {
     "node": ">=22.12.0 <25.0.0"
   },
